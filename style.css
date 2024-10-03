@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: w;
+}
+nav{
+    font-family:'Ubuntu', sans-serif;
+}
+nav ul li{
+    padding: 0px 12px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+nav ul li :hover{
+    background-color: rgb(38, 29, 29);
+    border: 1px solid white;
+    border-radius: 10px;
+
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+ .search-bar{
+    position: absolute;
+    right: 10px;
+    margin-right: 50px;
+    
+   
+}
+#search{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    
+}
+.search-bar #btn{
+    background-color: rgb(169, 165, 165);
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+
+}
+.search-bar #btn:hover{
+    background-color: rgb(92, 88, 88);
+}
+.brand img{
+    width: 44px;
+    padding: 0px 8px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 34px;
+    background: url(/img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+  
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+   margin: 12px 0px;
+   
+   
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    height: 40px;
+    width: 70%;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+
+}
+.songItem img{
+    height: 30px;
+    margin: 12px 8px;
+    border-radius: 34px;
+
+}
+.timeStamp{
+    margin: 0px 12px;
+}
+.timeStamp i{
+    cursor: pointer;
+
+}
+.songItemContainer{
+    margin-top: 68px;
+}
+.songGif img{
+    height: 60px;
+    width: 100px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.songGif{
+    position: absolute
+    ;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
